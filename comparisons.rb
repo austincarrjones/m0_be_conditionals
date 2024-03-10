@@ -24,23 +24,37 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
 
+puts "Is number_teachers less than number_students?", number_teachers < number_students
+
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
+
+puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
 
+puts "Is number_teachers not equal to number_students?", number_teachers != number_students
+
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
+
+puts "Is number_students greater than or equal to 20?", number_students >= 20
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
 
+puts "Is number_students greater than or equal to 21?", number_students >= 21
+
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
 
+puts "Is number_students less than or equal to 20?", number_students <= 20
+
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
+
+puts "Is number_students less than or equal to 21?", number_students <= 21
 
 
 #-------------------
@@ -53,21 +67,34 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: Explain. 
+# put to terminal - Is the integer 4 less than the integer 9?
+# --> true
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# Assign books variable to 3
+# put to terminal - Is the integer 4 less than the integer 3?
+# --> false
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# Assign friends variable to 6
+# Assign siblings variable to 2
+# put to terminal - Is the integer 6 greater than the integer 2?
+# --> true
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# Assign attendees variable to 9
+# Assign meals variable to 8
+# put to terminal - Is the integer 9 not equal to the integer 2?
+# --> true
 
 
 #-------------------
