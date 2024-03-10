@@ -17,6 +17,8 @@ number_students = 20
 string_teachers = "4"
 numberDogs = 0
 
+puts "# PART 1: Comparing variables"
+
 # EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
 puts "Is number_teachers greater than number_students?", number_teachers > number_students
 # this should print: "Is numberTeachers greater than numberStudents?" false
@@ -65,6 +67,8 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 # in English, explaining what that line of code is doing, including what the comparison will evaluate to.
 # Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 # Make sure YOU can explain it that way!
+
+puts "PART 2: Articulating what you are doing"
 
 puts 4 < 9
 #YOU DO: Explain. 
@@ -115,18 +119,22 @@ loves_dog_park = false
 loves_treats = true
 age = 1
 
+puts "PART 3: Logical Operators"
+
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
 # Assume that a dog is a puppy if it is less than 2 years old.
+puts loves_to_play && age < 2
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
+# it evaluated to true. Not sure what the extra question/explanation is for...
